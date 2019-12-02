@@ -6,8 +6,6 @@ Develop REST and GraphQL APIs, also focuses on how to secure, consume, document,
 
 The Car Backend consists of four modules (or sub-projects), namely:
 
-If you want to read about these modules in detail, click on the links below are you will be redirected to the README page for each one of them. Instead, if you would like to see the application in action first (highly recommended) and later come back to know the details, keep reading this README.
-
 1. Boogle-maps: This is a Mock SPI that simulates a Maps    WebService where, given a latitude and longitude, it  will return a random address.
 
 2. EurekaServer: Its a simple eureka server application that holds all information about the client-service applications. All micro-services will register to this eureka server and all client application will register to this server so that it knows what client applications are on which port and IP address
